@@ -16,8 +16,8 @@ def lucky_num_from_block_hash(h):
     hash_names = ['md5', 'md4', 'whirlpool', 'RIPEMD160', 'DSA', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512']
     print(str(len(hash_names)) + ": " + str(hash_names))
 
-    # repeat = 10000 * 400 * 20
-    repeat = 10000 * 400
+    repeat = 10000 * 400 * 20
+    # repeat = 10000 * 400
     r = h
     for i in range(repeat):
         if i % 100000 == 0:
