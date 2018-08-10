@@ -6,7 +6,7 @@ EOS LIVE 空投工具，Based on [bihu-airdrop-tool.py](https://github.com/bihu-
 
 EOS LIVE 官方会给每个合格的参与者, 分配一个奖券号，从 1 开始的整数。
 
-EOS LIVE 官方会在空投活动开始前，公布 EOS 未来的某个区块号，比如 10185667。
+EOS LIVE 官方会在空投活动截止时，公布 EOS 未来的某个区块号，比如 10185667。
 
 并使用这个区块的 hash，计算一个 luck number
 
